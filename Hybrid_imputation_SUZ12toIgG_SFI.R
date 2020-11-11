@@ -417,7 +417,7 @@ dev.off()
 
 #ASSIGN ORDERED TO VARIABLE FOR DOWNSTREAM ANALYSIS
 options(scipen = 0)
-my_data1 <-read.csv("Combined_logFC_qvalue_pvalue_Hybrid_SFI_SUZ12toIgG.csv", 
+my_data1 <-read.csv("Combined_logFC_qvalue_pvalue_SFI_SUZ12toIgG.csv", 
                     sep = ",")
 head(my_data1)
 
