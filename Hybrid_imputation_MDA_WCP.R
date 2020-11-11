@@ -7,7 +7,7 @@ pkg_str <- c("sourcetools", "qvalue",
              "dplyr", "factoextra", "FactoMineR",
              "naniar","finalfit", "impute",
              "pcaMethods", "imputeLCMD", "matrixTests", 
-             "ggrepel", "biomaRt", "tidyr", "dplyr", 
+             "ggrepel", "tidyr", "dplyr", 
              "viridis", "hrbrthemes", "ggpubr", 
              "gridExtra", "ggplotify")
 
