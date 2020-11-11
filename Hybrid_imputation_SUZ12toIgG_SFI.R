@@ -453,8 +453,8 @@ g + labs(x = "log2 Fold Change (SUZ12/IgG)", y = "-log 10 qvalue",
   geom_vline (xintercept = 1, linetype = "dashed", color = "blue") + 
   geom_vline (xintercept = -1, linetype = "dashed", color = "blue") +
   geom_hline(yintercept = 1.3, linetype ='dashed', color = "blue") +
-  geom_text_repel(size = 8, data =subset(myvolcano1, Factor2 > 0),
-                  aes(logFC_mean, negLOGqvalue, label = SYMBOL, angle = 30, col = "black")
+  #geom_text_repel(size = 8, data =subset(myvolcano1, Factor2 > 0),
+  #                aes(logFC_mean, negLOGqvalue, label = SYMBOL, angle = 30, col = "black")
   )
 
 dev.off()
