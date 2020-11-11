@@ -3,3 +3,7 @@ install.packages(c("sourcetools", "qvalue", "limma", "missForest", "VIM", "ggplo
                   "dplyr", "factoextra", "FactoMineR", "naniar", "finalfit", "impute",
                   "pcaMethods", "imputeLCMD", "matrixTests", "ggrepel", "biomaRt", "tidyr", 
                    "viridis", "hrbrthemes"))
+
+source("http://bioconductor.org/biocLite.R")
+biocLite("qvalue")
+
