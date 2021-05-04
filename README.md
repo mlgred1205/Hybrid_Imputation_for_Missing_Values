@@ -19,7 +19,7 @@
   
   
 ## III. DATA ANALYSIS  
-1. Click on one of the three "Hybrid_Imputation_X.R" files to begin the data analysis and this will open the script in a window above the R console.  
+1. Click on one of the three ".R" files to begin the data analysis and this will open the script in a window above the R console.  
   
 2. To run the script, make sure the blinking cursor is in that window and hold control (or command for Mac) + A to select all. Once script is highlighted in blue, hit the run button (green arrow) above the script window.  
   
